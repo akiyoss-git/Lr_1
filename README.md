@@ -1,6 +1,6 @@
-#laboratory work N1
+# laboratory work N1
 
-###Authors: Kramnik Ilya (f0rs4ken), Burmistrov Alexey (foxlf), Kuptsov Andrey (Reowlin), Serebryanskiy Alexander (akiyoss)
+### Authors: Kramnik Ilya (f0rs4ken), Burmistrov Alexey (foxlf), Kuptsov Andrey (Reowlin), Serebryanskiy Alexander (akiyoss)
 
 This program works like a parser of .txt files with a specific type of content
 Example: 
