@@ -46,10 +46,10 @@ public class Parser {
             return mass;
 
         }catch (FileNotFoundException e) {
-            e.printStackTrace();
+            System.out.println("File does not exist");
             return null;
         } catch (IOException e) {
-            e.printStackTrace();
+            System.out.println("IOException");
             return null;
         }
     }
