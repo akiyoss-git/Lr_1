@@ -3,3 +3,8 @@ type: melee name: BountyHunter
 type: range name: Techies
 type: hit name: Sven
 type: tank name: Misha
+type: range name: Shalawa
+type: melee name: Dodique
+type: range name: ShadowShaman
+type: tank name: NePudge
+type: range name: WR
