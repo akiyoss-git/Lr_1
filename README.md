@@ -3,11 +3,17 @@
 ### Authors: Kramnik Ilya (f0rs4ken), Burmistrov Alexey (foxlf), Kuptsov Andrey (Reowlin), Serebryanskiy Alexander (akiyoss)
 
 This program works like a parser of .txt files with a specific type of content
+
 Example: 
+
 > type: tank name: Pudge
+
 > type: melee name: BountyHunter
+
 > type: range name: Techies
+
 > type: hit name: Sven
+
 > type: tank name: Misha
 
 This list can be very long
