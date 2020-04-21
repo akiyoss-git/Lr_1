@@ -1,0 +1,5 @@
+type: tank name: Pudge
+type: melee name: BountyHunter
+type: range name: Techies
+type: hit name: Sven
+type: tank name: Misha
