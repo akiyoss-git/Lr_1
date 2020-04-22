@@ -1,4 +1,5 @@
 package app;
+import counter.*;
 import adds.*;
 import parser.*;
 
@@ -19,6 +20,7 @@ public class App {
 			}
 		} catch (Exception e) {
 		}
+		Counter.count(data);
 	}
 
 }

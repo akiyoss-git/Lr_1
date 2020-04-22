@@ -7,17 +7,13 @@ public class Range implements Characters{
 	private String name;
 	private String type = "range";
 
-	@Override
-	public String toString() {
-		return "Range{" +
-				"name='" + name + '\'' +
-				", type='" + type + '\'' +
-				'}';
-	}
-
 	public Range(String name) {
 		super();
 		this.name = name;
+	}
+
+	public String returnType() {
+		return type;
 	}
 
 	public int getName() {
@@ -31,5 +27,13 @@ public class Range implements Characters{
 	public void useSkill() {
 		if(skill == 1)
 		System.out.println("Techies set mines");
+	}
+
+	@Override
+	public String toString() {
+		return "Range{" +
+				"name='" + name + '\'' +
+				", type='" + type + '\'' +
+				'}';
 	}
 }

@@ -10,20 +10,24 @@ private String type = "tank";
 public Tank(String name) {
 	super();
 	this.name = name;
-}
+	}
 
-public int getName() {
-	return skill;
-}
+	public String returnType() {
+		return type;
+	}
 
-public void setName(int skill) {
-	this.skill = skill;
-}
+	public int getName() {
+		return skill;
+	}
 
-public void useSkill() {
-	if(skill == 1)
-	System.out.println("Pudge throws a hook");
-}
+	public void setName(int skill) {
+		this.skill = skill;
+	}
+
+	public void useSkill() {
+		if(skill == 1)
+		System.out.println("Pudge throws a hook");
+	}
 
 	@Override
 	public String toString() {

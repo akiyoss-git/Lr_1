@@ -12,6 +12,10 @@ public class Melee implements Characters{
 		this.name = name;
 	}
 
+	public String returnType(){
+		return type;
+	}
+
 	public int getName() {
 		return skill;
 	}
