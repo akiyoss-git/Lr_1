@@ -21,4 +21,5 @@ This list can be very long
 We divided the program into parts: Class descriptions, Parser, Counter
 Main class App.java contains necessary minimum of code. It reads filename of file that we need to parse and starts up modules like parser and counter
 
-21.04.2020
+Class Parser - parses .txt file and creating array of objects
+Class Counter - counts how many objects of any type exists
