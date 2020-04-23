@@ -4,7 +4,7 @@
 
 This program works like a parser of .txt files with a specific type of content
 
-Example: 
+Example input: 
 
 > type: tank name: Pudge
 
@@ -23,3 +23,10 @@ Main class App.java contains necessary minimum of code. It reads filename of fil
 
 Class Parser - parses .txt file and creating array of objects
 Class Counter - counts how many objects of any type exists
+
+Example output:
+
+> Characters range type: 1
+> Characters melee type: 1
+> Characters tank type: 2
+> Characters undefined type: 1
