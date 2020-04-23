@@ -27,6 +27,9 @@ Class Counter - counts how many objects of any type exists
 Example output:
 
 > Characters range type: 1
+
 > Characters melee type: 1
+
 > Characters tank type: 2
+
 > Characters undefined type: 1
