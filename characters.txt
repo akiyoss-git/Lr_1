@@ -4,7 +4,7 @@ type: range name: Techies
 type: melee name: Sven
 type: tank name: Misha
 type: range name: Shalawa
-type: melee name: Dodique
+type: type name: Dodique
 type: range name: ShadowShaman
 type: tank name: NePudge
 type: range name: WR

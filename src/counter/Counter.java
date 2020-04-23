@@ -9,11 +9,19 @@ public class Counter {
         Map<String, Integer> numbers = new HashMap<>();
         System.out.println();
         for (int i = 0; i < data.length; i++){
-            String char_type = data[i].returnType();
-            if(!numbers.containsKey(char_type)){
-                numbers.put(char_type, 1);
-            } else {
-                numbers.put(char_type, numbers.get(char_type) + 1);
+            try {
+                String char_type = data[i].returnType();
+                if (!numbers.containsKey(char_type)) {
+                    numbers.put(char_type, 1);
+                } else {
+                    numbers.put(char_type, numbers.get(char_type) + 1);
+                }
+            }catch (NullPointerException e) {
+                if (!numbers.containsKey("undefined")) {
+                    numbers.put("undefined", 1);
+                } else {
+                    numbers.put("undefined", numbers.get("undefined") + 1);
+                }
             }
         }
         for (Map.Entry<String, Integer> entry : numbers.entrySet()){

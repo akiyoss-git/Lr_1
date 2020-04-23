@@ -13,13 +13,6 @@ public class App {
 		String filename = in.next();
 		Parser parser = new Parser(filename);
 		Characters[] data = parser.parse();
-		try {
-			for (Characters chars : data
-			) {
-				System.out.println(chars);
-			}
-		} catch (Exception e) {
-		}
 		Counter.count(data);
 	}
 
