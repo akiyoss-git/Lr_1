@@ -7,7 +7,6 @@ import java.util.Map;
 public class Counter {
     public  static  void  count (Characters[] data){
         Map<String, Integer> numbers = new HashMap<>();
-        System.out.println();
         for (int i = 0; i < data.length; i++){
             try {
                 String char_type = data[i].returnType();
@@ -27,6 +26,7 @@ public class Counter {
         for (Map.Entry<String, Integer> entry : numbers.entrySet()){
             System.out.println("Characters " + entry.getKey() + " type: " + entry.getValue());
         }
+        System.out.println();
     }
 }
 
